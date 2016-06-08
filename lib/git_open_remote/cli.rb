@@ -8,6 +8,8 @@ module GitOpenRemote
       program :description, 'Open your git remote in browser'
 
       command :open do |cmd|
+        cmd.syntax = 'open origin'
+        cmd.description = 'Open remote url in browser'
         cmd.action do |args, _|
           git = Git.open(Dir.pwd)
           url = git.remote(args[0]).url
