@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name = 'git_open_remote'
   spec.version = GitOpenRemote::VERSION
   spec.author = 'Alexander Tipugin'
-  spec.summary = 'Open your git remote in a browser'
+  spec.summary = 'Open your git remote in browser'
 
   spec.files = `git ls-files -z`.split("\x0")
   spec.bindir = 'exe'
