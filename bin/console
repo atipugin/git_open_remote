@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require 'pry'
+
+lib = File.expand_path('../../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+require 'git_open_remote'
+
+Pry.start
