@@ -4,7 +4,7 @@
 
 Open your git remotes in browser.
 
-![](https://dl.dropboxusercontent.com/u/5813290/github/git_open_remote/example.gif)
+![](https://raw.githubusercontent.com/atipugin/git_open_remote/master/images/example.gif)
 
 ## Installation
 
